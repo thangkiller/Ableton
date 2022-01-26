@@ -1,0 +1,12 @@
+*{
+	font-family: arial;
+}
+html{
+	font-size: 62.5%;
+}
+.text--big{
+	font-size: 25px;
+}
+.text--small{
+	font-size: 10px;
+}
