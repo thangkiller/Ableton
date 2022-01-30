@@ -1,4 +1,4 @@
-.navbar{
+.screen--long{
 	display: flex;
 	justify-content: space-between;
 }
@@ -45,6 +45,9 @@
 .navbarSecondary__item--orangered{
 	color: orangered;
 }
+.screen--short{
+	display: none;
+}
 .header{
 	width: 83.2vw;
 	margin: auto;
@@ -56,7 +59,7 @@
 }
 .header__text{
 	color: #fd5948;
-	font-size: 120px;
+	font-size: 12rem;
 	font-weight: 700;
 	margin: auto;
 	letter-spacing: 0.8;
@@ -79,34 +82,34 @@
 }
 .groupImg1{
 	margin-top: 100px;
-	height: 79.6rem;
+	height: 58.27vw;
 }
 .groupImg1__background{
 	width: 58.2vw;
-	height: 79.6rem;
+	height: 58.27vw;
 	background-color: #FAFFA7;
 	position: absolute;
 	right: 0;
 }
 .groupImg1__img1{
-	width: 56.9rem;
-	height: 56.9rem;
+	width: 41.65vw;
+	height: 41.65vw;
 	background-image: url(./img/photo-1.jpg);
 	background-size: cover;
 	background-position: center center;
 	position: absolute;
-	margin-top: 11.2rem;
+	margin-top: 8.2vw;
     margin-left: 8.5vw;
 }
 .groupImg1__img2{
-	width: 45.5rem;
-	height: 34.1rem;
+	width: 33.3vw;
+	height: 24.96vw;
 	background-image: url(./img/photo-2.jpg);
 	background-size: cover;
 	background-position: center center;
 	position: absolute;
-	right: 10rem;
-	margin-top: 22.5rem;
+	right: 7.32vw;
+	margin-top: 16.47vw;
 }
 .p3{
 	margin-top: 12rem;
@@ -119,16 +122,16 @@
 .videoyoutube{
 	margin: auto;
 	margin-top: 12rem;
-	width: 68.3rem;
-	height: 38.4rem;
+	width: 50vw;
+	height: 28.1vw;
 	background-image: url(./img/poster-juanpe.jpg);
-	background-size: 68.3rem;
+	background-size: 50vw;
 	display: flex;
 }
 .videoyoutube__button{
 	margin: auto;
-	width: 7.5rem;
-	height: 7.5rem;
+	width: 5.5vw;
+	height: 5.5vw;
 }
 .captionForVideo{
 	margin: auto;
@@ -145,40 +148,40 @@
 .groupImg2{
 	margin-top: 11.5rem;
 	width: 100%;
-	height: 102.4rem;
+	height: 74.96vw;
 }
 .groupImg2__background{
-	width: 79.6rem;
-	height: 102.4rem;
+	width: 58.27vw;
+	height: 74.96vw;
 	background-color: #92CC9A;
 	position: absolute;
 }
 .groupImg2__img1{
-	width: 45.5rem;
-	height: 34.1rem;
+	width: 33.3vw;
+	height: 24.96vw;
 	background-image: url(./img/photo-3.jpg);
-	background-size: 45.5rem;
+	background-size: 33.3vw;
 	position: absolute;
-	margin-left: 11.5rem;
-	margin-top: 11.5rem;
+	margin-left: 8.42vw;
+	margin-top: 8.42vw;
 }
 .groupImg2__img2{
-	width: 45.5rem;
-	height: 34.1rem;
+	width: 33.3vw;
+	height: 24.96vw;
 	background-image: url(./img/photo-4.jpg);
 	background-size: 45.5rem;
 	position: absolute;
-	margin-top: 56.9rem;
-	margin-left: 11.5rem;
+	margin-top: 41.65vw;
+	margin-left: 8.42vw;
 }
 .groupImg2__img3{
-	width: 56.9rem;
-	height: 56.9rem;
+	width: 41.65vw;
+	height: 41.65vw;
 	background-image: url(./img/photo-5.jpg);
-	background-size: 56.9rem;
+	background-size: 41.65vw;
 	position: absolute;
-	margin-top: 23rem;
-	margin-left: 68.2rem;
+	margin-top: 16.83vw;
+	margin-left: 49.93vw;
 }
 .p7{
 	margin-top: 12rem;
@@ -189,15 +192,15 @@
 .groupImg3{
 	margin-top: 12rem;
 	width: 100%;
-	height: 57.6rem;
+	height: 42.17vw;
 	display: flex;
 }
 .groupImg3__img{
-	width: 102.4rem;
-	height: 57.6rem;
+	width: 74.96vw;
+	height: 42.17vw;
 	margin: auto;
 	background-image: url(./img/poster-meet-the-makers.jpg);
-	background-size: 102.4rem;
+	background-size: 74.96vw;
 }
 .p9{
 	margin-top: 12rem;
@@ -210,36 +213,36 @@
 }
 .groupImg4{
 	width: 100%;
-	height: 79.6rem;
+	height: 58.27vw;
 	margin-top: 12rem;
 	display: flex;
 }
 .groupImg4__background{
-	width: 91rem;
-	height: 79.6rem;
+	width: 66.6vw;
+	height: 58.27vw;
 	background-color: #AA8FCC;
 	margin: auto;
 	z-index: 1;
 }
 .groupImg4__img1{
-	width: 45.5rem;
-	height: 34.1rem;
+	width: 33.3vw;
+	height: 34.96vw;
 	background-image: url(./img/photo-6-a.jpg);
-	background-size: 45.5rem;
+	background-size: 33.3vw;
 	position: absolute;
-	left: 11.3rem;
-	margin-top: 23rem;
+	left: 8.27vw;
+	margin-top: 16.83vw;
 	z-index: 2;
 }
 .groupImg4__img2{
-	width: 56.9rem;
-	height: 56.9rem;
+	width: 41.65vw;
+	height: 41.65vw;
 	background-image: url(./img/photo-7.jpg);
-	background-size: 56.9rem;
+	background-size: 41.65vw;
 	position: absolute;
 	z-index: 2;
 	right: 0;
-	margin-top: 11.3rem;
+	margin-top: 8.27vw;
 }
 .p12{
 	margin-top: 13rem;
@@ -248,22 +251,21 @@
 	margin-top: 3rem;
 }
 .groupImg5{
-	width: 113.8rem;
-	height: 56.9rem;
+	width: 83.3vw;
 	margin: auto;
 	display: flex;
 	margin-top: 12rem;
 }
 .groupImg5__img{
-	width: 56.9rem;
-	height: 56.9rem;
+	width: 50%;
+	height: 41.65vw;
 	background-image: url(./img/photo-8.jpg);
-	background-size: auto 56.9rem;
-	 background-position: right center;
+	background-size: cover;
+	background-position: right center;
 }
 .groupImg5__detail{
-	width: 56.9rem;
-	height: 56.9rem;
+	width: 50%;
+	height: 41.65vw;
 	background-color: #b1c5ff;
 	display: flex;
 }
@@ -295,10 +297,10 @@
 	letter-spacing: 0;
 }
 .refer{
-	width: 113.8rem;
-	height: 17.6rem;
+	width: 83.3vw;
 	display: flex;
 	margin: auto;
+	flex-wrap: wrap-reverse;
 }
 .refer__socialNetwork{
 	display: flex;
@@ -311,8 +313,8 @@
 	margin-top: auto;
 }
 .refer__socialNetwork__item__icon{
-	width: 4rem;
-	height: 4rem;
+	width: 40px;
+	height: 40px;
 	font-size: 40px;
 }
 .fa-facebook-square{
@@ -350,7 +352,7 @@
 }
 input.refer__signup__input{
 	width: 35.5rem;
-	height: 4.2rem;
+	height: 41px;
 	box-sizing: border-box;
 	background-color: #c0c0c1;
 	font-size: inherit;
@@ -369,7 +371,6 @@ button.refer__signup__input{
 }
 .about{
 	width: 113.8rem;
-	height: 17.6rem;
 	display: flex;
 	margin: auto;
 	margin-top: 5.5rem;
@@ -392,13 +393,14 @@ button.refer__signup__input{
 }
 .about__languageAndLocation{
 	flex: 1.33;
+	display: flex;
+	flex-direction: column;
 }
 .about__languageAndLocation__header{
 	font-weight: bold;
 }
 .about__languageAndLocation__input{
-	width: 32rem;
-	height: 3rem;
+	height: 30%;
 	margin-top: 1rem;
 	display: flex;
 }
@@ -410,7 +412,6 @@ button.refer__signup__input{
 }
 .information{
 	width: 113.8rem;
-	height: 9rem;
 	margin: auto;
 	margin-top: 6rem;
 	display: flex;
@@ -425,9 +426,55 @@ button.refer__signup__input{
 }
 .information__logo{
 	display: flex;
-	justify-content: space-between;;
+	justify-content: space-between;
 	width: 14rem;
 }
 .information__logo__icon{
 	height: 2rem;
+}
+@media screen and (max-width: 1050px){
+	.screen--long{
+		display: none;
+	}
+	.screen--short{
+		display: flex;
+		justify-content: start;
+	}
+	.screen__menu{
+		margin-left: 20px;
+		list-style-type: none;
+	}
+	.groupImg5{
+		flex-direction: column;
+	}
+	.groupImg5__img{
+		width: 100%
+	}
+	.groupImg5__detail{
+		width: 100%;
+	}
+	.groupImg5__detail__p{
+		width: 80%;
+		height: 100%
+	}
+	.refer{
+		flex-direction: column;
+	}
+	.refer__item + .refer__item{
+		margin-top: 30px
+	}
+	.about{
+		flex-direction: column;
+	}
+	.about__item + .about__item{
+		margin-top: 30px
+	}
+}
+@media screen and (max-width: 700px){
+	.groupImg5__detail__p__text{
+		font-size: 18px;
+	}
+	.groupImg5__detail__p__link{
+		font-size: 18px;
+	}
 }

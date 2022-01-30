@@ -2,7 +2,7 @@
 	font-family: arial;
 }
 html{
-	font-size: 62.5%;
+	font-size: calc(1000vw/1349);
 }
 .text--big{
 	font-size: 26px;
