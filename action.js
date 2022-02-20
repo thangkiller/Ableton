@@ -8,3 +8,10 @@ document.onscroll = function() {
 	else nav2Node.classList.remove('navbarSecondary--disappear');
 	yOld = yCur;
 };
+
+
+//button menu
+var menuNode = document.querySelector('.screen__menu');
+document.onclick = function(){
+	menuNode.classList.toggle('')
+}

@@ -447,12 +447,47 @@ button.refer__signup__input{
 		display: none;
 	}
 	.screen--short{
+		display: block;
+		background-color: #0000FF;
+		color: #fff;
+	}
+	.screen--short__navbar{
 		display: flex;
 		justify-content: start;
 	}
-	.screen__menu{
+	.screen--short__navbar__button{
 		margin-left: 20px;
 		list-style-type: none;
+	}
+	.screen--short__menu{
+
+	}
+	.screen--short__menu__select{
+		height: 30px;
+		margin-top: 20px;
+		padding-left: 15px;
+		font-size: 17px;
+		font-weight: 700;
+	}
+	.screen--short__menu__select--small{
+		font-size: 12px;
+	}
+	.screen--short__menu__select--red{
+		color: #F6724A;
+	}
+	.menu--discription{
+		display: flex;
+		font-size: 12px;
+	}
+	.screen--discription__item{
+		margin: 0 15px;
+		min-width: 190px;
+	}
+	.screen--discription__item__head{
+		font-weight: 700;
+	}
+	.screen--discription__item__body{
+
 	}
 	.groupImg5{
 		flex-direction: column;
