@@ -1,3 +1,7 @@
+.navbar{
+	padding-bottom: 15px;
+	border-bottom: 2px solid #ccc;
+}
 .screen--long{
 	display: flex;
 	justify-content: space-between;
@@ -34,6 +38,7 @@
 	display: flex;
 	list-style-type: none;
 	padding-left: 0px;
+	background-color: #fff;
 }
 .navbarSecondary__item{
 	height: 21px;
@@ -44,6 +49,10 @@
 }
 .navbarSecondary__item--orangered{
 	color: orangered;
+}
+.navbarSecondary--disappear{
+	position: sticky;
+	top: 0px;
 }
 .screen--short{
 	display: none;
