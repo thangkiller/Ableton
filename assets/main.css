@@ -459,8 +459,16 @@ button.refer__signup__input{
 		margin-left: 20px;
 		list-style-type: none;
 	}
-	.screen--short__menu{
-
+	.screen--short__navbar__button::after{
+		content: ' ▼';
+		font-size: 15px;
+	}
+	.menu--disappear{
+		display: none;
+	}
+	.menu--changed{
+		background-color: #fff;
+		color: #000;
 	}
 	.screen--short__menu__select{
 		height: 30px;
@@ -478,12 +486,15 @@ button.refer__signup__input{
 	.menu--discription{
 		display: flex;
 		font-size: 12px;
+		overflow: auto;
 	}
 	.screen--discription__item{
 		margin: 0 15px;
 		min-width: 190px;
+		line-height: 1.5;
 	}
 	.screen--discription__item__head{
+		margin-top: 10px;
 		font-weight: 700;
 	}
 	.screen--discription__item__body{
